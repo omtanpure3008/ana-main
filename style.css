@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    /* background-color: violet; */
+}
+
+.home {
+    height: 100%;
+    width: 100%;
+    /* background-color: darkorange; */
+    display: flex;
+}
+
+.left {
+    height: 100%;
+    width: 60%;
+    /* background-color: deepskyblue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.left h1 {
+    font-size: 8vw;
+}
+
+.left p {
+    font-size: 1.4vw;
+    font-family: poppins;
+    letter-spacing: 2px;
+}
+
+.left div {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* background-color: yellow; */
+    width: 100%;
+}
+
+.para {
+    text-decoration: underline;
+}
+
+.right {
+    height: 100%;
+    width: 40%;
+    /* background-color: pink; */
+    background-image: url(/project1/2.jpeg);
+    background-size: cover;
+    background-position: center;
+}
